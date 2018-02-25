@@ -1,2 +1,2 @@
 # streamlines
-A streamline generator in MRST framework
+A streamline generator under MRST framework
