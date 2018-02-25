@@ -95,7 +95,7 @@ q0 = 5e-4;
 [sc, sl, tof] = generate_streamlines(G, W, qt, q0, poro);
 %%
 % Plot streamlines
-figure;hold on
+figure('color','w');hold on
 plotWell(G, W([W.sign] == -1), 'color', 'r')
 plotWell(G, W([W.sign] ==  1), 'color', 'b')
 
